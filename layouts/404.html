@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    {{- partial "header.html" . -}}
+
+    <body>
+        <div class="top-color-bar" aria-hidden="true"></div>
+
+        <div class="content">
+            {{- partial "head.html" . -}}
+
+            <main class="list">
+                <div style="text-align: center; margin: 5rem 0 6rem;">
+                    <h1>四零四</h1>
+
+                    <p style="line-height: 1.8; margin-top: 2rem;">
+                        尋仙誤入此地來，
+                        頁面無蹤只剩苔。<br>
+                        莫問此頁何處去，
+                        多半地址寫錯賴。<br>
+                    </p>
+
+                    <p style="margin-top: 2rem;">
+                        <a href="/">回到首頁</a>
+                    </p>
+                </div>
+            </main>
+
+            {{- partial "footer.html" . -}}
+        </div>
+    </body>
+</html>

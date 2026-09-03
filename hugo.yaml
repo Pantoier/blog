@@ -1,0 +1,51 @@
+baseURL: https://blog.pantoier.com/
+locale: zh-cn
+title:  老潘的博客
+theme: archie
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+summaryLength: 3
+
+pagination:
+  pagerSize: 10
+
+params:
+  mainSections:
+    - posts
+  mode: toggle
+  favicon: "/site-icon.png"
+  subtitle: |
+    **世人都说神仙好，功名利禄舍不了。**
+    **我道人世太杳杳，一瓶微醺将将好。**\
+    *欢迎来到老潘的博客。此处不求闻达，只为散修成仙。闲时读书，不求甚解；无事瞎想，文章自娱。纵有胡言乱语，诸位姑妄听之，我亦姑妄写之。*
+
+  social:
+  - name: Email
+    icon: "simple:gmail"
+    url: "mailto:pantoier@gmail.com"
+
+  - name: RSS
+    icon: "simple:rss"
+    url: "/index.xml"
+
+menu:
+  main:
+    - name: 首页
+      url: /
+      weight: 1
+
+    - name: 文章
+      url: /posts/
+      weight: 2
+
+    - name: 标签
+      url: /tags/
+      weight: 3
+
+    - name: 关于
+      url: /about/
+      weight: 4
