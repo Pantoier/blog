@@ -117,6 +117,13 @@
 	{{- end }}
 
 	<style>
+		/* 日夜辅助色均使用五色条蓝色。 */
+		:root {
+		  --color-primary-dark: #FFC400;
+		  --color-primary-hover-dark: #FFC400;
+		  --color-border: #176B9C;
+		  --color-border-dark: #176B9C;
+		}
 		.top-color-bar {
 		  position: fixed;
 		  top: 0;
@@ -124,23 +131,19 @@
 		  width: 100%;
 		  height: 5px;
 		  z-index: 9999;
-	  
+
 		  background: linear-gradient(
 			to right,
-			#e53935 0%,
-			#e53935 14.28%,
-			#fb8c00 14.28%,
-			#fb8c00 28.56%,
-			#fdd835 28.56%,
-			#fdd835 42.84%,
-			#43a047 42.84%,
-			#43a047 57.12%,
-			#00acc1 57.12%,
-			#00acc1 71.40%,
-			#1e88e5 71.40%,
-			#1e88e5 85.68%,
-			#8e24aa 85.68%,
-			#8e24aa 100%
+			#DC143C 0%,
+			#DC143C 20%,
+			#ffc400 20%,
+			#ffc400 40%,
+			#176b9c 40%,
+			#176b9c 60%,
+			#F5F0E6 60%,
+			#F5F0E6 80%,
+			#444444 80%,
+			#444444 100%
 		  );
 		}
 	  </style>
