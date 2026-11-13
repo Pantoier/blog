@@ -18,7 +18,7 @@ categories: ["随笔"]
 <div class="pl">我贴在门的这边</div>
 <div class="pl"></div>
 <div class="pl">你背着LV包包挤地铁</div>
-<div class="pl">LV包包上印着许多LV</div>
+<div class="pl">LV包包上印着许多的LV</div>
 <div class="pl"></div>
 <div class="pl">我也背着包包挤地铁</div>
 <div class="pl">不是LV</div>
