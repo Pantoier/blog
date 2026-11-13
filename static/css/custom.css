@@ -3,3 +3,5 @@
 .body blockquote { margin: 1.5em 0; }
 .body blockquote p { font-size: 1em; }
 .body img { margin: 0.5em 0; }
+/* 首页、列表页的文章简介最多显示三行 */
+.list-item .description { display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 3; line-clamp: 3; overflow: hidden; }

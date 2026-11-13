@@ -16,7 +16,7 @@ categories: ["随笔"]
 <div class="pl">两个月了</div>
 <div class="pl">每天都背着这本书</div>
 <div class="pl" style="font-weight:bold">真是个死胖子</div>
-<div class="pl">&nbsp;</div>
+<div class="pl"></div>
 <div class="pl">又走来了一个女人</div>
 <div class="pl">浅蓝色毛衣、白短裤、肉丝袜</div>
 <div class="pl">可惜</div>
@@ -40,7 +40,7 @@ categories: ["随笔"]
 <div class="pl">这便秘的狗才拉着她</div>
 <div class="pl">一起扭着屁股走了</div>
 <div class="pl">留下一堆屎</div>
-<div class="pl">&nbsp;</div>
+<div class="pl"></div>
 <div class="pl">又走来一个年轻人</div>
 <div class="pl">西装、领带、皮鞋</div>
 <div class="pl">背着鼓鼓的书包</div>
