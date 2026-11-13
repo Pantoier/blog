@@ -1,0 +1,5 @@
+/* 潘托耶博客：文章正文统一排版 */
+.body p, .body li { font-size: 1.15em; line-height: 1.95; margin: 0 0 1.2em 0; }
+.body blockquote { margin: 1.5em 0; }
+.body blockquote p { font-size: 1em; }
+.body img { margin: 0.5em 0; }
